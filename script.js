@@ -6,6 +6,7 @@ const len = str.length;
 if (str[i]!==st[len-1-i]) {
 	return true;
 }
+	}
 		return false;
 }
 module.exports = palindrome
