@@ -9,4 +9,7 @@ if (str[i]!==st[len-1-i]) {
 	}
 		return false;
 }
+const value = palindrome(str);
+
+console.log(value);
 module.exports = palindrome
