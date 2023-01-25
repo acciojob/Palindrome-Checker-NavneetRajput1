@@ -9,7 +9,4 @@ str = str.toLowerCase().replace(/(\W)|(\_)/g,"").split("");
     }
     return true;
 }
-const value = palindrome(str);
-
-console.log(value);
 module.exports = palindrome
